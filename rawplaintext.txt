@@ -1,0 +1,400 @@
+Received: from 10.197.39.76
+ by atlas207.free.mail.bf1.yahoo.com pod-id NONE with HTTPS; Mon, 12 Aug 2024 14:57:58 +0000
+Return-Path: <bounce+a3e3e8.b6ea9-timsdulcet=yahoo.com@m.teachable.com>
+X-Originating-Ip: [69.72.33.241]
+Received-SPF: pass (domain of m.teachable.com designates 69.72.33.241 as permitted sender)
+Authentication-Results: atlas207.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@m.teachable.com header.s=krs;
+ dkim=pass header.i=@mailgun.org header.s=mg;
+ spf=pass smtp.mailfrom=m.teachable.com;
+ dmarc=pass(p=NONE) header.from=m.teachable.com;
+X-Apparently-To: timsdulcet@yahoo.com; Mon, 12 Aug 2024 14:57:58 +0000
+X-YMailISG: p_X7TJUWLDsDPK_V.TKoVtbbGhIKnnA5RLpxPrsEpq6LHliU
+ Dj5ptAXjwiEoOA4DuLS9qofScZyyyYqFe.gSOyxlGTxsyZIyKLI5i9nn0J6M
+ YKJGUuLkZISgbK73i9WVb5qUbT4eglci2DOLb7Iz1q9YXpxprq3jS45HejCz
+ s70YYVOM6Tk4CaHfUZSGTbXvttoXmjCYsnfIFOQ56KgfLse9kKMuPDWCm1iX
+ ClSAVoBHzsAXrA5KnPTHB7fYUtRf6dQaocJ09mu0otV16yCBlWE8NzQe5x6A
+ K3EjTZTaDXViajiArLAvmWvH3Sylw7VDFXh6U5BlgHonHEXGqTO4ZKDf5mpq
+ WY_luTW60VYRkCKE9ZbZDQvsF41FmtmiYNhKAVajvfgnvnR7Y2iEkUiNZeiw
+ F2iC9Nkq.c8iI8k.WH1ZueAzzuK15gqV0qRcQI7smT9oKQw8QTZ3oGRHS8lJ
+ cxuLYdlEv2bsYIqaPLd3BRtHAna40sONGKjgeg_J_zJSK6QdZjj_05Bb62dM
+ STNB81MJD8m_yI4qhq2urLWRpnQQSgid4WELcPL8sr2nIx7VCLh8wb_wXbgh
+ VbIF05irm87a.FBwU0DBcnh.sn99BCfXty6n4dMwjIogcuLzVQ2aRFrJFBP2
+ BDTkF6xwVNyzZXrEYWUIGeDwT7hVYgC0MAlW0LEwqPR9fQ44nYbvUoqA70..
+ rYDhC0eTeg32edOjeoP80cyMoNVpwKltQKmBb6swxR7JDA20C7NgafC3u8kE
+ 5Ggky6v3aQeXUBO5CXynKZZKJTg6WVaClyU5F3j0QzVwenywpgDvi0DrXl9s
+ 7wT7VKwHSPLkzscf1W4ATbP2Qa2.ksiefrieTuV11R6Oj3D1sIJk08vkWrpf
+ cD0Q6bvdpL7ML5E9dC6n_uunf_vWYSGn97Gdk057QZeZljp5CcOPZ_.mrsqM
+ si2FjSRtxMHjiaNLZDas.MO5A_H3EMyZd9dw2ZDyqAj36tQI1FK2q58KGUWR
+ 8B7GuCEnN0TqR6LDyFg4BysAopUdYM.0RjNXXDIKIkbaqVWISpaKX5s.rDxC
+ G1SY4b.sLkECS1RwrBtKfcSN5CCfiwJW2CUirI.ZWHUsGOppKwhgyx80fCh9
+ c5.4SdGy2A3zQeGN1gnvSDMteODdOsxELKwduEkoa2rkd6PFWJKQgs5YVUMj
+ AAu1xHqK64FsrMkeH_l5efFh4k_svHtauhnaVLyhpNeCG6D7.Obb9uVeJGiV
+ 5heEMjb4K_TgkPbuPxFU5vqf1ppUgGlijy.5POc-
+Received: from 69.72.33.241 (EHLO m33-241.mailgun.net)
+ by 10.197.39.76 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Mon, 12 Aug 2024 14:57:58 +0000
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=m.teachable.com; q=dns/txt; s=krs; t=1723474678; x=1723481878;
+ h=Content-Transfer-Encoding: Content-Type: Message-Id: reply-to: To: To: From: From: Subject: Subject: Mime-Version: Date: Sender: Sender: List-Unsubscribe: List-Unsubscribe-Post;
+ bh=7qiXOXGKx4CRXRWPBTcpzbql/MQukYZrjGwK8GBr33c=;
+ b=JqaKoT+2w5T6SXtAeU1p6gbb8trIIHP9aBNu0AjtIHfZG9BCQK+56cnyZi0H2t/gUKCbAIJnli6XC6mVvC0TWBAugtqQiq/wFl/KmKiYEgFeCgEuDuxPGkeaxyLZaW55lAY+iVLk4lHp/h2RSBL5oztDLzWxCPpfXWnUxt7AZ2w=
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=mailgun.org; q=dns/txt; s=mg; t=1723474678; x=1723481878;
+ h=Content-Transfer-Encoding: Content-Type: Message-Id: reply-to: To: To: From: From: Subject: Subject: Mime-Version: Date: Sender: Sender: List-Unsubscribe: List-Unsubscribe-Post;
+ bh=7qiXOXGKx4CRXRWPBTcpzbql/MQukYZrjGwK8GBr33c=;
+ b=IKxkJi6VwpAvTfQfibLmKWrFj+HLqd7NXKnxSSl37WWcLYQHYGIm9FEZ21p5Ih+eAUHuelunbSjqstrhSDj1uY3WKsPiAZns7dwAXXUbZ5FWsS6m+R/9tQrdBPn1dU2TYnl5cAWfTFbPE1blrSnGvjUS94wG8P/8qPtF611rYBs=
+X-Mailgun-Sending-Ip: 69.72.33.241
+X-Mailgun-Sid: WyI4NzViNyIsInRpbXNkdWxjZXRAeWFob28uY29tIiwiYjZlYTkiXQ==
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+List-Unsubscribe: <mailto:u+mq6wentfme4smzlnmfuwyx3smvrwk2lqorpwszb5euzdemjwha4tgojsgy4dsjjsgitgqpjtmq4dinbug5tgkyjvgvswmojrg44dgmlcgqytknrymq3dcnjzgmtgspjsgazdimbygezdcnbvg42tilrshaztqmldmjtdezjqmq3tanrveu2da3joorswcy3imfrgyzjomnxw2jtnmvzxgylhmvpwszb5euzdemztgizdinjveuzdejtshv2gs3ltmr2wyy3foqstimdzmfug63zomnxw2jttmnug633ml5uwipjfgizdemjvgq4tmnbfgizcm5b5euzecjtwhuza@m.teachable.com>,
+ <https://email.m.teachable.com/u/eJwszVFqxCAQANDT6GdwxhkzfvjRkyxGJ40Qsay20NuXLXuAx6vpCJqj1Z7b_Xhq0fa1Hq0mgwhBoo8YJBpEeyVfhYj2UzOznhF28XAQcJAagKO3LaFDcgIIxDvThuIFynGiurq7wIZc35bmcuXj1q2MbrvOmT_1XXqPSMyv75lW67N-30WXIfebrzH-xSzXGPcbIDDFQC-wksEP-5PwLwAA___7BDxz>
+Received: from <unknown> (<unknown> []) by cfaa9012c991 with HTTP id
+ 66ba22f611805f096b05524f; Mon, 12 Aug 2024 14:57:54 GMT
+X-Mailgun-Batch-Id: 66ba22f211805f096b0540dc
+Sender: notifications@m.teachable.com
+Date: Mon, 12 Aug 2024 14:57:54 +0000
+Mime-Version: 1.0
+Subject: Unusual Activity Detected on Your MetaMask Wallet - Immediate Action Required
+From: MetaMask Team <notifications@m.teachable.com>
+To: 'timsdulcet' <timsdulcet@yahoo.com>
+reply-to: MetaMask Team <orioles.frigate_0m@icloud.com>
+X-Mailgun-Variables: {"email_receipt_id": "\"1689392689\"", "message_id": "\"3322455\"",
+ "school_id": "\"2154964\""}
+Message-Id: <20240812145754.28381cbf2e0d7065 @m.teachable.com>
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Length: 10955
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+  <head></head>
+  <body>
+    <!--
+Email template: email
+Description: This email is sent to a student when they are emailed directly=
+=2E
+ -->
+
+<!-- Content -->
+
+
+
+<p></p>
+
+<style type=3D"text/css">
+      @media only screen and (min-width: 620px) {
+  .u-row {
+    width: 600px !important;
+  }
+  .u-row .u-col {
+    vertical-align: top;
+  }
+  .u-row .u-col-100 {
+    width: 600px !important;
+  }
+}
+@media (max-width: 620px) {
+  .u-row-container {
+    max-width: 100% !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .u-row .u-col {
+    min-width: 320px !important;
+    max-width: 100% !important;
+    display: block !important;
+  }
+  .u-row {
+    width: 100% !important;
+  }
+  .u-col {
+    width: 100% !important;
+  }
+  .u-col &amp;amp;amp;gt; div {
+    margin: 0 auto;
+  }
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+table,
+tr,
+td {
+  vertical-align: top;
+  border-collapse: collapse;
+}
+p {
+  margin: 0;
+}
+=2Eie-container table,
+=2Emso-container table {
+  table-layout: fixed;
+}
+* {
+  line-height: inherit;
+}
+a[x-apple-data-detectors=3D'true'] {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+table, td { color: #000000; } #u_body a { color: #0000ee; text-decoration: =
+underline; } @media (max-width: 480px) { #u_content_image_1 .v-src-width { =
+width: auto !important; } #u_content_image_1 .v-src-max-width { max-width: =
+25% !important; } #u_content_text_3 .v-container-padding-padding { padding:=
+ 10px 20px 20px !important; } #u_content_button_1 .v-size-width { width: 65=
+% !important; } #u_content_text_2 .v-container-padding-padding { padding: 2=
+0px 20px 60px !important; } }
+</style>
+
+
+
+
+<table id=3D"u_body" style=3D"border-collapse:collapse;border-spacing:0;ver=
+tical-align:top;margin:0 auto;background-color:#000000;width:100%;">
+
+<tr style=3D"vertical-align:top;">
+	<td style=3D"border-collapse:collapse !important;vertical-align:top;">
+	=09
+		<div class=3D"u-row-container" style=3D"padding:0px;background-color:tran=
+sparent;">
+			<div class=3D"u-row" style=3D"margin:0 auto;max-width:600px;background-c=
+olor:transparent;">
+				<div style=3D"border-collapse:collapse;display:table;width:100%;height:=
+100%;background-color:transparent;">
+				=09
+				=09
+					<div class=3D"u-col u-col-100" style=3D"max-width:320px;display:table-=
+cell;vertical-align:top;">
+						<div style=3D"background-color:#ffffff;height:100%;width:100% !import=
+ant;">
+						=09
+							<div style=3D"height:100%;padding:0px;border-top:0px solid transpare=
+nt;border-left:0px solid transparent;border-right:0px solid transparent;bor=
+der-bottom:0px solid transparent;">
+							=09
+								<table id=3D"u_content_image_1" style=3D"font-family:'Open Sans' , =
+sans-serif;" width=3D"100%">
+							=09
+								<tr>
+									<td class=3D"v-container-padding-padding" style=3D"padding:48px;fo=
+nt-family:'Open Sans' , sans-serif;">
+										<table width=3D"100%">
+									=09
+										<tr>
+											<td style=3D"padding-right:0px;padding-left:0px;">
+												<img src=3D"https://pbs.twimg.com/media/GTvzaceW4AATAYd?format=
+=3Dpng&amp;name=3Dsmall" alt=3D"Logo" style=3D"text-decoration:none;clear:b=
+oth;display:inline-block !important;border:none;height:auto;float:none;widt=
+h:57%;max-width:287.28px;" width=3D"287.28" class=3D"v-src-width v-src-max-=
+width">
+											</td>
+										</tr>
+									=09
+										</table>
+									</td>
+								</tr>
+							=09
+								</table>
+							=09
+							</div>
+						=09
+						</div>
+					</div>
+				=09
+				=09
+				</div>
+			</div>
+		</div>
+	=09
+		<div class=3D"u-row-container" style=3D"padding:0px;background-color:tran=
+sparent;">
+			<div class=3D"u-row" style=3D"margin:0 auto;max-width:600px;background-c=
+olor:transparent;">
+				<div style=3D"border-collapse:collapse;display:table;width:100%;height:=
+100%;background-position:center top;background-color:transparent;">
+				=09
+				=09
+					<div class=3D"u-col u-col-100" style=3D"max-width:320px;display:table-=
+cell;vertical-align:top;">
+						<div style=3D"background-color:#ffffff;height:100%;width:100% !import=
+ant;border-radius:0px;">
+						=09
+							<div style=3D"height:100%;padding:0px;border-top:0px solid transpare=
+nt;border-left:0px solid transparent;border-right:0px solid transparent;bor=
+der-bottom:0px solid transparent;border-radius:0px;">
+							=09
+								<table style=3D"font-family:'Open Sans' , sans-serif;" width=3D"100=
+%">
+							=09
+								<tr>
+									<td class=3D"v-container-padding-padding" style=3D"padding:60px 10=
+px 10px;font-family:'Open Sans' , sans-serif;">
+										<div style=3D"font-size:14px;line-height:170%;text-align:center;"=
+>
+											<p style=3D"font-size:14px;line-height:170%;"><span style=3D"fon=
+t-size:20px;line-height:34px;"><strong><span style=3D"line-height:34px;font=
+-size:20px;">Dear User,</span></strong></span>
+											</p>
+										</div>
+									</td>
+								</tr>
+							=09
+								</table>
+								<table id=3D"u_content_text_3" style=3D"font-family:'Open Sans' , s=
+ans-serif;" width=3D"100%">
+							=09
+								<tr>
+									<td class=3D"v-container-padding-padding" style=3D"padding:10px 10=
+0px 20px;font-family:'Open Sans' , sans-serif;">
+										<div style=3D"font-size:14px;line-height:170%;text-align:center;"=
+>
+											<p style=3D"font-size:14px;line-height:170%;text-align:left;"><s=
+pan style=3D"font-size:16px;line-height:27.2px;">We have detected unusual a=
+ctivity on your MetaMask wallet in the past 24 hours. For your security, pl=
+ease verify your authority via the button below to avoid any suspension.</s=
+pan>
+											</p>
+										</div>
+									</td>
+								</tr>
+							=09
+								</table>
+								<table id=3D"u_content_button_1" style=3D"font-family:'Open Sans' ,=
+ sans-serif;" width=3D"100%">
+							=09
+								<tr>
+									<td class=3D"v-container-padding-padding" style=3D"padding:10px;fo=
+nt-family:'Open Sans' , sans-serif;">
+									=09
+										<div>
+										=09
+											<a href=3D"https://email.m.teachable.com/c/eJwszkFu6yAUheHV4NmLz=
+OGCzYDBm3gbEVxualRTIkMqpauvUmV-fp0vh-Qk-kmCXmBoIbesk9RYjuspLOU-riUHBWi3euPh=
+Vq-AaQ9IMTNxgtEpMiwMYRF9M2Rc9omnEjCD5lVDk10sXbCaVXO6Qea8zM4qmutlSOQ9pkMu3Op=
+0hH2Me1fmv8KmsFUZscb-2YUfZxnPf114lPb1Gits4_xR2KYqvccPeUONAcjal_IMo9SeHwfLUD=
+Q_497a30_nvbXjHUBb8o5ewXfAbwAAAP__etpRmA" target=3D"_blank" class=3D"v-butt=
+on v-size-width" style=3D"display:inline-block;text-decoration:none;text-al=
+ign:center;color:#FFFFFF;background-color:#000000;border-radius:4px;width:5=
+0%;max-width:100%;font-size:14px;">
+											<span style=3D"display:block;padding:10px 20px;line-height:120%;=
+"><span style=3D"font-size:16px;line-height:19.2px;"><strong><span style=3D=
+"line-height:19.2px;font-size:16px;">Verify My Wallet</span></strong></span=
+></span>
+											</a>
+										=09
+										</div>
+									</td>
+								</tr>
+							=09
+								</table>
+								<table id=3D"u_content_text_2" style=3D"font-family:'Open Sans' , s=
+ans-serif;" width=3D"100%">
+							=09
+								<tr>
+									<td class=3D"v-container-padding-padding" style=3D"padding:20px 10=
+0px 60px;font-family:'Open Sans' , sans-serif;">
+										<div style=3D"font-size:14px;line-height:170%;text-align:center;"=
+>
+											<p style=3D"font-size:14px;line-height:170%;text-align:left;"><s=
+trong><span style=3D"font-size:16px;line-height:27.2px;">Note: If this emai=
+l landed in your junk folder, please hold the button above and click "Open =
+in new tab."</span></strong>
+											</p>
+											<p style=3D"font-size:14px;line-height:170%;text-align:left;"><s=
+pan style=3D"font-size:16px;line-height:27.2px;">Thank you for your prompt =
+attention to this matter.</span>
+											</p>
+											<p style=3D"font-size:14px;line-height:170%;text-align:left;"><s=
+pan style=3D"font-size:16px;line-height:27.2px;"> Best regards, </span>
+											</p>
+											<p style=3D"font-size:14px;line-height:170%;text-align:left;"><s=
+pan style=3D"font-size:16px;line-height:27.2px;">The MetaMask Team</span>
+											</p>
+										</div>
+									</td>
+								</tr>
+							=09
+								</table>
+							=09
+							</div>
+						=09
+						</div>
+					</div>
+				=09
+				=09
+				</div>
+			</div>
+		</div>
+	=09
+	=09
+		<div class=3D"u-row-container" style=3D"padding:0px;background-color:tran=
+sparent;">
+			<div class=3D"u-row" style=3D"margin:0 auto;max-width:600px;background-c=
+olor:transparent;">
+				<div style=3D"border-collapse:collapse;display:table;width:100%;height:=
+100%;background-position:center top;background-color:transparent;">
+				=09
+				=09
+					<div class=3D"u-col u-col-100" style=3D"max-width:320px;display:table-=
+cell;vertical-align:top;">
+						<div style=3D"background-color:#000000;height:100%;width:100% !import=
+ant;border-radius:0px;">
+						=09
+							<div style=3D"height:100%;padding:0px;border-top:0px solid transpare=
+nt;border-left:0px solid transparent;border-right:0px solid transparent;bor=
+der-bottom:0px solid transparent;border-radius:0px;">
+							=09
+								<table style=3D"font-family:'Open Sans' , sans-serif;" width=3D"100=
+%">
+							=09
+								<tr>
+									<td class=3D"v-container-padding-padding" style=3D"padding:20px;fo=
+nt-family:'Open Sans' , sans-serif;">
+										<div style=3D"font-size:14px;color:#ffffff;line-height:140%;text-=
+align:center;">
+											<p style=3D"line-height:140%;">Consensys Software Inc, 5049 Edwa=
+rds Ranch Rd, Fort Worth, TX 76109, United States
+											</p>
+										</div>
+									</td>
+								</tr>
+							=09
+								</table>
+							=09
+							</div>
+						=09
+						</div>
+					</div>
+				=09
+				=09
+				</div>
+			</div>
+		</div>
+	=09
+	=09
+	</td>
+</tr>
+
+</table>
+
+
+
+    <hr style=3D"border-left: 0; border-top: 1px solid #FFF; margin-top: 30=
+px; margin-bottom: 20px;">
+    <a data-skip-utm-params=3D"true" data-skip-click=3D"true" href=3D"https=
+://email.m.teachable.com/c/eJxU0E1vm0AQxvFPs9ywdmdfOXCAplit1FRBiePkEu3L2KwB=
+g7wQxd--cutLzzOP9NcvlE6hLTIsmQYutFDaZDjaOHxc0GOcl48YSgLAlCl4AcoUBCDrSqEYco7=
+BY5BOsYO0gGAklcop0MFksQQKghoGTEgtxQYMN8y7AyANmipJBB03C1rfWTfgxk9jNpTdssyEVw=
+QaAs1gj5iHNZ7zlCffTdPw_z-B5lbaR98TaNLqkr_EeYnTORFo6qpz3176uN23s9s_9uH16_S-b=
+yt8bSYHZn2DYqlP07bdtXNdfz11T-8_fxyHnYfdtT6lqu37-J0_nuy2-HSNuf56fqG_n9_o7bar=
+CH8g_CHPpdTeMhWk1kIaLrRTTAhjGHgJxgQshGcH5Qg06_me6DAbMSV7xDsu5wBCypvspVzimMI=
+6eFyIoFfbTdNfm38A9wEwKQolboPPEv4EAAD___vniko" class=3D"unsubscribe-link" st=
+yle=3D"color: #B4B4B4; font-size: 11px;">Unsubscribe from these emails</a>
+  <img width=3D"1px" height=3D"1px" alt=3D"" src=3D"https://email.m.teachab=
+le.com/o/eJwszVGKxCAMANDTtJ8liVHjh2cZ1KRboeIy7S7s7ZcZ5gCPp7kGK2m1jJEcRw5RVh=
+uln4-nNevf96NrXogwSHKJgqSFaD2yVt25RUyxGFZR8AKIoAK2U1NbeyYgBkFC9tHzRuIEW93JQ=
+CMEvzCM7bbSjlJP29oc67DrKl_2KZ0jYu9f3zPffVz6cza7F4a_csz5Flc75jw_gNBzCvwCv5n-=
+AwAA__-nxT8P"></body>
+</html>
